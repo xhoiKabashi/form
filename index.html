@@ -26,37 +26,36 @@
 
     <div class="leftFormColumn">
         <label for="firstName"> First Name</label>
-        <input type="text" name="firstName" id="">
+        <input type="text" name="firstName" id="" required>
 
         <label for="email">Email</label>
-        <input type="email" name="email" id="">
+        <input type="email" name="email" id="" required>
 
         <label for="password">Password</label>
-        <input type="password" name="password" id="">
+        <input type="password" name="password" id="" required minlength="6" pattern="[a-z][A-Z][0-9]">
     </div>
 
     <div class="rightFormColumn">
         <label for="lastName">Last Name</label>
-        <input type="text" name="lastName" id="">
+        <input type="text" name="lastName" id="" required>
 
         <label for="phone">Phone Number</label>
         <input type="tel" name="phone" id="">
 
         <label for="passwordConf">Confirm Password</label>
-        <input type="password" name="passwordConf" id="">
+        <input type="password" name="passwordConf" id="" required minlength="6" pattern="[a-z][A-Z][0-9]">
     </div>
 
-    
 
 </div>
 
               </fieldset>
               
-            </form>
-            <div class="btnContainer">
-                <button class="btn">Create Account</button>
+              <div class="btnContainer">
+                <button class="btn" type="submit">Create Account</button>
                 <h4>Already have an account? <a href="#">Log in</a></h4>
-            </div>
+              </div>
+            </form>
           </div>
         
       </div>

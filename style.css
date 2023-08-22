@@ -106,7 +106,8 @@ legend {
   flex-direction: column;
   align-items: start;
   width: 60%;
-  margin: 50px 0 0 0px;
+  margin: 50px 0 0 auto;
+
 }
 
 .btn {
@@ -123,11 +124,20 @@ legend {
   font-size: 15px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
   "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+
 }
 .btnContainer > h4 > a {
   
   text-decoration: none;
   color: #596d48;
   
+}
 
+input:valid {
+
+border-color: green;
+}
+input:invalid {
+
+  border-color: red;
 }
