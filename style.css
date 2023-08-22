@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: Nord-Bold;
+  src: url(./Norse-Bold.otf);
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+}
+
+.containerLeft {
+  width: 40%;
+  height: 100%;
+  background-image: url(./bg.jfif);
+  padding-top: 10%;
+}
+
+.logoText {
+  background-color: rgba(25, 23, 23, 0.5);
+  display: flex;
+  justify-content: center;
+}
+.logoText > img {
+  height: 150px;
+  fill: #1e1c1c;
+}
+.logoText > h1 {
+  font-size: 150px;
+  font-family: Nord-Bold;
+  color: white;
+}
+.containerLeft h4 {
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  margin-top: 500px;
+}
+
+.containerRight {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(243, 243, 243);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: white;
+}
+fieldset {
+  border: none;
+  padding: 12px;
+  box-shadow: 4px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+legend {
+  font-size: 38px;
+  padding: 0 40px;
+}
+
+.formContainer {
+  display: flex;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  text-transform: uppercase;
+  margin: 20px;
+  justify-content: space-around;
+}
+
+.leftFormColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.leftFormColumn input {
+  width: 250px;
+  height: 30px;
+}
+
+.rightFormColumn {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.rightFormColumn input {
+  width: 250px;
+  height: 30px;
+}
+
+.btnContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  width: 60%;
+  margin: 50px 0 0 0px;
+}
+
+.btn {
+  background-color: #596d48;
+  font-size: 20px;
+  color: white;
+  padding: 10px 60px;
+  border-radius: 10px;
+  border: none;
+}
+.btnContainer > h4 {
+
+  margin-top: 30px;
+  font-size: 15px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+  "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+.btnContainer > h4 > a {
+  
+  text-decoration: none;
+  color: #596d48;
+  
+
+}

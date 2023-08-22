@@ -1,0 +1,13 @@
+.test {
+
+    display: flex;
+    flex-direction: column;
+    color: aqua;
+}
+
+.test input[type="text"] {
+
+width: 100px;
+
+
+}
